@@ -1,0 +1,27 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kliefadas@github.com/kliefadas/git-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kliefadas/git-cli/issues"
+  },
+  "bin": {
+    "git-cli": "index.js"
+  },
+  "homepage": "https://github.com/kliefadas/git-cli#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "semver": "^7.3.2",
+    "simple-git": "^2.2.0"
+  }
+}

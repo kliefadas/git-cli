@@ -7,7 +7,7 @@
  Start by cloning this project on your workstation.
  
  ```bash
- $ git clone git@github.com:https://github.com/kliefadas/git-cli.git git-cli
+ $ git clone https://github.com/kliefadas/git-cli.git git-cli
  ```
  
  The next thing will be to install all the dependencies of the project using [npm](https://www.npmjs.com/get-npm):

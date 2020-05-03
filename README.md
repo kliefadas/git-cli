@@ -2,6 +2,8 @@
 
 ## Getting started
 
+Creating interactive releases and hotfixes on remote.
+
 ### Project configuration
  
  Start by cloning this project on your workstation.

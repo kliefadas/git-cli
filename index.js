@@ -23,7 +23,7 @@ async function init() {
     {
       type: 'list',
       name: 'branchName',
-      message: 'Which version you want to create?',
+      message: 'Which type of an update you want to create?',
       choices: ['release', 'hotfix']
     }
   ])
@@ -62,14 +62,14 @@ async function init() {
         {
           type: 'list',
           name: 'selectedBaseBranch',
-          message: 'Which base branch should release have?',
+          message: 'Which base branch should the release have?',
           choices: ['develop', 'staging', 'master']
         }
       ])
       baseBranch = selectedBaseBranch
     }
   }
-  // await git.push('origin', `origin/${baseBranch}:refs/heads/${branchName}/${version}`)
+  await git.push('origin', `origin/${baseBranch}:refs/heads/${branchName}/${version}`)
 
   console.log(`Release ${branchName}/${version} got created based on ${baseBranch} branch`)
 }

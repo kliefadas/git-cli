@@ -1,8 +1,11 @@
 # git-cli
 
-## Getting started
+![](preview.gif)
 
 Creating interactive releases and hotfixes on remote.
+
+## Getting started
+
 
 ### Project configuration
  
